@@ -1,0 +1,123 @@
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f6f3; /* soft mint background */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #ff6b6b; /* coral headings */
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+    background: #ffffff; /* white form background for contrast */
+    padding: 25px 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.15);
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #b2e0db;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #4ecdc4; /* mint highlight on focus */
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: #4ecdc4; /* mint button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #38b2ac; /* slightly darker mint on hover */
+}
+
+/* Links */
+a {
+    color: #ff6b6b; /* coral links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Messages */
+p {
+    text-align: center;
+    color: #ff6b6b;
+    font-weight: 500;
+}
+
+/* Table */
+table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(78, 205, 196, 0.1);
+}
+
+th, td {
+    padding: 12px 18px;
+    text-align: left;
+    border-bottom: 1px solid #b2e0db;
+}
+
+th {
+    background-color: #ff6b6b; /* coral table header */
+    color: white;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #d3f1ee; /* light mint hover */
+    transition: 0.3s;
+}
+
+/* Action links in table */
+table a {
+    color: #4ecdc4; /* mint action links */
+    font-weight: 500;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
